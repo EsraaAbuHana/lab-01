@@ -1,7 +1,7 @@
 
 /* lab 01 */
  /* @media (max-width: 480px) {} */
-body{max-width:480px ;
+/* body{max-width:480px ;
     max-height: 767px;
     display: contents;
     }
@@ -88,14 +88,17 @@ div{ float: left;
     width: 760px;
     height: 150px; 
 }
-}
+} */
+
+/*-------------------------------------------------------------*/
 /*lab 04*/
-/*
 
  @media (max-width: 480px) {
 
 body{
     display: grid;
+    grid-template-columns: 200px 1fr 1fr 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 250px 150px;
     grid-gap: 1px;
     max-width:478px ;
         max-height: 767px;
@@ -126,9 +129,9 @@ body > div {
     text-align: center;
     font-size: 30px;
   }
-}
+
 @media (min-width: 481px)and(max-width: 768px) {
 }
 @media (min-width: 769px) {
 }  
- /* */
+ 
