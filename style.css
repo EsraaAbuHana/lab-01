@@ -1,3 +1,6 @@
+
+/* lab 01 */
+ /* @media (max-width: 480px) {} */
 body{max-width:480px ;
     max-height: 767px;
     display: contents;
@@ -13,8 +16,6 @@ body{max-width:480px ;
     border-collapse: collapse;
 
 }
-
-
    .a{ line-height: 37.5px;
 
         width: 480px;
@@ -88,5 +89,46 @@ div{ float: left;
     height: 150px; 
 }
 }
+/*lab 04*/
+/*
+
+ @media (max-width: 480px) {
+
+body{
+    display: grid;
+    grid-gap: 1px;
+    max-width:478px ;
+        max-height: 767px;
+       
 
 
+}
+.a { grid-column: 2;
+    grid-row: 1 ; }
+.b {grid-column: 2;
+    grid-row: 1 / span 4; }
+.c { grid-column: 2;
+    grid-row: 1 / span 2; }
+.d { grid-column: 2;
+    grid-row: 1 / span 2; }
+.e { grid-column: 1;
+    grid-row: 1 / span 3 25px ; }
+.f { grid-column: 1;
+    grid-row: 1 / span 3 25px ; }
+.g { grid-column: 1;
+    grid-row: 1 / span 3 25px ; }
+.h { grid-column: 1;
+    grid-row: 1 / span 3 25px ; }
+.i { grid-column: 1;
+    grid-row:80; }
+body > div {
+    background-color: rgba(165, 158, 158, 0.993);
+    text-align: center;
+    font-size: 30px;
+  }
+}
+@media (min-width: 481px)and(max-width: 768px) {
+}
+@media (min-width: 769px) {
+}  
+ /* */
